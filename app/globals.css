@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-blue: #131821;
+  --color-brand-blue-dark: #0C0F14;
+  --color-brand-slate: #E6ECF5;
+  --color-brand-gold: #D19C5B;
+  --color-brand-gold-hover: #b8864d;
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #131821;
+  --foreground: #E6ECF5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utility */
+@utility glass-panel {
+  background-color: rgba(26, 36, 45, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@utility glass-panel-light {
+  background-color: rgba(240, 242, 245, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(240, 242, 245, 0.1);
+}
+
+/* Animation Utilities for Marquee */
+@keyframes scroller {
+  to {
+    transform: translate(calc(-50% - 1rem));
+  }
+}
+
+.animate-scroller {
+  animation: scroller 30s linear infinite;
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 6s ease infinite;
+}
