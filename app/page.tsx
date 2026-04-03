@@ -53,18 +53,18 @@ export default function Home() {
   const testimonials = [
     {
       text: "DevHive transformed our initial concept into a powerful digital platform. Their attention to detail and technical expertise is unmatched.",
-      author: "Sarah Jenkins",
-      role: "CTO, FinTech Solutions"
+      author: "Abhi Shah",
+      role: "CTO, HomeSol Digital"
     },
     {
       text: "Working with them was a breeze. They understood our complex requirements and delivered an enterprise-grade mobile app ahead of schedule.",
-      author: "Michael Chang",
-      role: "Product Head, HealthSync"
+      author: "Darsh Dodia",
+      role: "CEO, Dodia Brothers"
     },
     {
       text: "The web application they built for us not only looks stunning but handles our massive traffic loads effortlessly. Highly recommended team.",
-      author: "Elena Rodriguez",
-      role: "Founder, EcomScale"
+      author: "Vanshika",
+      role: "Business Head, PGC Chennai"
     }
   ];
 
@@ -407,10 +407,10 @@ export default function Home() {
                     <p className="text-[#E6ECF5]/50 text-sm h-10">{tier.subtitle}</p>
                   </div>
 
-                  <div className="mb-8 flex items-end">
+                  {/* <div className="mb-8 flex items-end">
                     <span className="text-4xl font-black text-white">{tier.price}</span>
                     <span className="text-[#E6ECF5]/40 ml-2 mb-1 font-medium">{tier.billingPeriod}</span>
-                  </div>
+                  </div> */}
 
                   <div className="mb-8 space-y-4">
                     <div className="bg-[#0C0F14]/50 rounded-2xl p-4 border border-white/5 space-y-3">
