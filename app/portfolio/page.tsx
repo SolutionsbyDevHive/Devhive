@@ -52,7 +52,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "PGC Chennai",
-      link: "https://pgcchennai.com",
+      link: "https://www.pgcchennai.com/",
       category: "Corporate Platform",
       goal: "Establish a credible digital presence and improve client acquisition through a professional online platform.",
       execution: [

@@ -114,7 +114,7 @@ export default function Home() {
       price: "₹999",
       billingPeriod: "/ month",
       setupFee: "Excl. Domain Cost",
-      deliverySla: "7 Days",
+      deliverySla: "14 Days",
       specs: [
         { label: "Pages", value: "Up to 5" },
         { label: "Backend", value: "None" },
@@ -137,7 +137,7 @@ export default function Home() {
       price: "₹2,100",
       billingPeriod: "/ month",
       setupFee: "Excl. Domain Cost",
-      deliverySla: "14 Days",
+      deliverySla: "31 Days",
       specs: [
         { label: "Pages", value: "Up to 7" },
         { label: "Backend", value: "Basic+" },
