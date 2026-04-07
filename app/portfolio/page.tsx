@@ -51,6 +51,31 @@ export default function Portfolio() {
 
   const projects = [
     {
+  "title": "HomeSol Group",
+  "link": "https://www.homesolindia.com",
+  "category": "Proptech Platform",
+  "goal": "Establish a digital presence as a trusted real estate tech partner, empowering transparent and informed property decisions.",
+  "execution": [
+  "Structured navigation for key divisions like Inframart, Tech, and Finance.",
+  "Showcased authorized steel and cement dealerships to establish trust.",
+  "Integrated services for digital marketing, CRM, and developer apps.",
+  "Created clear pathways for loans, financing, and property transactions."
+],
+"results": [
+  "Positioned the brand as a pioneering proptech leader.",
+  "Streamlined communication for transparent and seamless property transactions.",
+  "Delivered a platform ensuring clarity and efficiency in real estate."
+],
+  "images": [
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS1.webp?alt=media&token=7c5bb5a3-1e9c-49a4-bd2c-989203449e11",
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS2.webp?alt=media&token=4b5e1792-fda9-480d-a8f3-c8b9608a5583",
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS3.webp?alt=media&token=124c6e22-9515-4a90-82c1-a28fba9c8ffe",
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS4.webp?alt=media&token=cd6d7bb4-7e20-4824-8c09-9b0fb62d441e",
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS5.webp?alt=media&token=8d3e7845-2984-4658-90db-912fa0d7ac51",
+    "https://firebasestorage.googleapis.com/v0/b/devhive-499e2.firebasestorage.app/o/assets%2Fimages%2FHS6.webp?alt=media&token=fc3c2902-007e-421d-93ea-b30115dc7bda"
+  ]
+},
+    {
       title: "PGC Chennai",
       link: "https://www.pgcchennai.com/",
       category: "Corporate Platform",
